@@ -17,13 +17,13 @@ int main(int argc, char *argv[])
 {
     int i;
 
-    printf("Start of program\n"); // print a statement indicating the start of the program
+    // printf("Start of program\n"); // print a statement indicating the start of the program
 
-    printf("Number of arguments - argc: %d\n", argc);
+    // printf("Number of arguments - argc: %d\n", argc);
 
-    printf("Program name - argv: %s\n", argv[0]);
+    // printf("Program name - argv: %s\n", argv[0]);
 
-    printf("There were %d arguments on the command line\n", argc);
+    printf("There were %d arguments on the command line.\n", argc);
 
     // print the command-line arguments received by the program
     // printf("ARGV: {");
