@@ -42,7 +42,7 @@ HW=1
 RUNOPTIONS=Hello World
 
 
-ROOTNAME=$(Thomas)_$(Sidney)_HW
+ROOTNAME=$(LASTNAME)_$(FIRSTNAME)_HW
 FOPTION=_main
 CC=gcc
 CFLAGS= -g -I.
