@@ -13,25 +13,27 @@
 
 #include <stdio.h>
 
-int main(int argc, char *argv[])
+int main(int argumentCount, char *argumentValues[])
 {
     int i;
 
     // printf("Start of program\n"); // print a statement indicating the start of the program
 
-    // printf("Number of arguments - argc: %d\n", argc);
+    // printf("Number of arguments - argumentCount: %d\n", argumentCount);
 
-    // printf("Program name - argv: %s\n", argv[0]);
+    // printf("Program name - argumentValues: %s\n", argumentValues[0]);
 
-    printf("There were %d arguments on the command line.\n", argc);
+    // print the total number of arguments passed to the program
+    printf("There were %d arguments on the command line.\n", argumentCount);
 
     // print the command-line arguments received by the program
     // printf("ARGV: {");
-    for (i = 0; i < argc; i++)
+    for (i = 0; i < argumentCount; i++)
     {
-        // printf("\"%s\", ", argv[i]);
+        // print the index of the argument and the argument itself
+        // printf("\"%s\", ", argumentValues[i]);
         printf("Argument 0%d:   ", i);
-        printf("%s\n", argv[i]);
+        printf("%s\n", argumentValues[i]);
     }
     // printf("\b\b}\n"); // remove the trailing comma and space and close the array
 
